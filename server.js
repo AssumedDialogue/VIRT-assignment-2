@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 // Set up a basic route
 app.get('/', (req, res) => {
-    res.send('Hello this is Areeba, Dockerized Node.js App! CI/CD is working ');
+    res.send('Hello this is Areeba, Dockerized Node.js App! This is for the demo ');
 });
 
 // Start the server
